@@ -1,0 +1,5 @@
+create database pessoas;
+
+create table pessoas (sexo binary(1),idade binary(7),renda_mensal binary(10),escolaridade binary(2),idioma binary(12),pais binary(8),localizador binary(24));
+
+insert into pessoas(sexo,idade,renda_mensal,escolaridade,idioma,pais,localizador) values (1,50,1000,1,150,85,1234);
